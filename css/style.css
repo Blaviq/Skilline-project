@@ -90,7 +90,8 @@
 }
 
 .features {
-  margin-bottom: 10%;
+  margin-bottom: 15%;
+  margin-top: 5%;
 }
 
 .features-info {
@@ -289,8 +290,13 @@
   margin-top: 150px;
 }
 
-.news-sm-img {
-  width: 200px;
+.btn-custom {
+  background-color: #F4C467;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 40px;
+  border: 0;
 }
 
 .btn-news {
@@ -300,4 +306,118 @@
 
 .news-test {
   margin-left: -100%;
+}
+
+
+.news-img {
+  display: flex;
+  align-items: start;
+  
+}
+
+.image-1 {
+  margin-right: 20px;
+  margin-top: 52px;
+  width: 400px;
+  position: relative;
+}
+
+.image-2 {
+  margin-right: 20px;
+  margin-top: 35px;
+  width: 400px;
+  position: relative;
+}
+
+.image-3 {
+  margin-right: 20px;
+  margin-top: 35px;
+  width: 400px;
+  position: relative;
+}
+
+.news-text-1 {
+  font-size: 12px;
+  margin-top: 54px;
+}
+
+.news-text-2 {
+  font-size: 12px;
+  margin-top: 38px;
+}
+
+.news-text-3 {
+  font-size: 12px;
+  margin-top: 38px;
+}
+
+.button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #F4C467;
+  color: #333;
+  padding: 5px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  margin-top: 85px;
+  margin-right: 17px;
+  border-radius: 40px;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+.logo-text {
+  margin-top: 9px;
+}
+
+.footer{
+  margin-top: 100px;
+  margin-bottom: -150px;
+  background-color: #252641;
+  padding: 50px 10px;
+  color: white;
+}
+#footer{
+  display: flex;
+  justify-content: center;
+}
+
+.footer #footer div #virtual{
+  font-size: 20px;
+  margin-left: 20px;
+  
+}
+
+.footer #footer div #virtual::before {
+  content: "";
+  
+  border-left: 1px solid white;
+  width: 0px;
+  height: 90%;
+  margin-right: 10px;
+}
+
+.footer div{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.footer div p{
+  font-size: 20px;
+}
+.footer div input{
+  border-radius: 30px;
+  border: none;
+  border-color: #83839A;
+}
+
+.footer div button{
+
+  border-radius: 30px;
+  padding: 6px 30px;
+  background-color: #545AE7;
+  border: none;
 }
