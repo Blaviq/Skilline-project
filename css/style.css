@@ -421,3 +421,105 @@
   background-color: #545AE7;
   border: none;
 }
+
+@media only screen and (max-width: 400px) {
+ .navbar {
+  width: 100%;
+ }
+
+ .studying-section {
+  width: 100px;
+ }
+
+ .brands-logos {
+  margin-left: 100px;
+ }
+ .brands-google {
+  width: 100%;
+ }
+ .brands-net {
+  padding-top: 10px;
+ }
+ .brands-air {
+  padding-top: 10px;
+ }
+ .brands-ama {
+  padding-top: 10px;
+ }
+ .brands-face {
+  padding-top: 10px;
+ }
+ .brands-grab {
+  padding-top: 10px;
+ }
+
+ .main-card {
+  padding-top: 30px;
+ }
+
+ /* .school-management {
+  width: 50%;
+ } */
+ 
+ .cofident-techer {
+  width: 80%;
+ }
+
+ .features-head {
+  padding-bottom: 15px;
+ }
+ .feature-text {
+  padding-top: 70px;
+ }
+ .eipse-3 {
+  margin-left: 107px;
+  z-index: -5;
+}
+
+.eipse-4 {
+  width: 4%;
+ margin-top: 30px;
+  margin-left: 50px; 
+}
+
+.icon {
+  width: 7%;
+}
+
+.see-more {
+  margin-left: 110px;
+}
+
+.integrations {
+  margin-left: 100px;
+}
+
+.image1 {
+  width: 30%;
+}
+
+.image2 {
+  width: 26%;
+  margin-left: 17px;
+}
+
+.image3 {
+  width: 28%;
+  padding-top: 60%;
+  margin-left: 2%;
+}
+
+.image4 {
+  width: 20%;
+  padding-top: 60%;
+  margin-left: 17px;
+}
+.inte-tool {
+  margin-top: 235px;
+  padding-left: 110px;
+}
+
+.testimonial-images {
+  width: 75%;
+}
+  }
